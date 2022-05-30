@@ -1,0 +1,39 @@
+.favoriteCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media all and (max-width: 1295px) {
+  .favoriteCont {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media all and (max-width: 990px) {
+  .favoriteCont {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 670px) {
+  .favoriteCont {
+    grid-template-columns: 1fr;
+  }
+}
+.descBox {
+  display: grid;
+  width: 900px;
+  line-height: 1.5;
+}
+@media all and (max-width: 960px) {
+  .descBox {
+    width: 600px;
+  }
+}
+@media all and (max-width: 625px) {
+  .descBox {
+    width: 400px;
+  }
+}
+@media all and (max-width: 430px) {
+  .descBox {
+    width: 300px;
+  }
+}

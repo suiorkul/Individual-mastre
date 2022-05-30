@@ -1,0 +1,48 @@
+.card-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+@media all and (max-width: 1295px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media all and (max-width: 960px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 630px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}
+.add {
+  animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}

@@ -1,0 +1,58 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  width: 170px;
+  margin-top: 10px;
+}
+.rev-btn {
+  border-radius: 0 !important;
+  border: white 1px solid !important;
+  padding: 10px 40px !important;
+  color: white !important;
+  margin-top: 10px !important;
+}
+.rev-btn:hover {
+  background-color: #aaa !important;
+  color: black !important;
+}
+.no {
+  color: #aaa;
+}
+.peoplerev {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  grid-row-gap: 300px;
+}
+@media all and (max-width: 970px) {
+  .peoplerev {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 600px) {
+  .peoplerev {
+    grid-template-columns: 1fr;
+  }
+}
+.inp {
+  width: 320px !important;
+  padding: 5px !important;
+  background-color: rgba(128, 128, 128, 0.223);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.inpbox {
+  padding: 10px 1.4rem;
+  font-size: 16px;
+  color: #fff;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: none;
+  width: 100%;
+  margin: 0.7rem 0;
+}

@@ -1,0 +1,25 @@
+.checkCont {
+  width: 320px !important;
+  background-color: rgba(128, 128, 128, 0.158) !important;
+  border-radius: 15px !important;
+}
+.checkimg {
+  margin: 20px 0 !important;
+}
+.checks {
+  color: #aaa !important;
+}
+.checksh3 {
+  color: #aaa !important;
+  margin-top: 0 !important;
+}
+.buy2btn {
+  border: #aaa 1px solid !important;
+  padding: 10px 35px !important;
+  color: #aaa !important;
+  margin-bottom: 10px !important;
+}
+.buy2btn:hover {
+  background-color: #aaa !important;
+  color: black !;
+}

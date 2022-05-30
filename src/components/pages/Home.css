@@ -1,0 +1,83 @@
+.home {
+  margin-top: 40px;
+  background: url(../images/home-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.home .content img {
+  width: 100%;
+}
+
+.home .content h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home .content p {
+  font-size: 17px;
+  line-height: 2;
+  color: #aaa;
+  padding: 10px 0 0 0;
+}
+.menubtn {
+  background-color: transparent;
+  border: #aaa 1px solid !important;
+  border-radius: 0 !important;
+  padding: 10px 40px !important;
+  margin-bottom: 70px !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+.menubtn:hover {
+  background-color: #aaa !important;
+  color: black !important;
+}
+.banerimg:hover {
+  animation: shake 0.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}

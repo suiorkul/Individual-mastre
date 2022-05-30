@@ -1,0 +1,37 @@
+.menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+@media all and (max-width: 1295px) {
+  .menu-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media all and (max-width: 960px) {
+  .menu-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 630px) {
+  .menu-list {
+    grid-template-columns: 1fr;
+  }
+}
+#menutext {
+  color: white;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+.reset {
+  animation: rot 4s infinite linear;
+}
+@keyframes rot {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

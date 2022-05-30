@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: "Raleway", sans-serif !important;
+}
+.price {
+  font-size: 20px !important;
+  color: #aaa !important;
+}
+.tocart:hover {
+  background-color: #aaa !important;
+  color: black !important;
+}
+.photos:hover {
+  transform: translateY(1rem);
+  transition: 0.4s;
+}

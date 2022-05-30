@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+body {
+  background: url(../images/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+.navbar-container {
+  background-color: black !important;
+}
+.btn {
+  font-family: "Raleway", sans-serif !important;
+}
+.active {
+  border-bottom: 1px solid rgb(246, 255, 0) !important;
+  padding-bottom: 3px !important;
+}
+.btn:hover {
+  color: yellow;
+}
+.mobile-link {
+  text-align: center;
+  margin: 0 10px;
+  width: 100%;
+  font-size: 20px;
+}
+.logout {
+  font-size: 20px !important;
+  padding-left: 60px !important;
+}
+.logout:hover {
+  background-color: gray !important;
+}
+.menuitem:hover {
+  background-color: gray !important;
+}
+.xmark {
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.searchIcon {
+  animation: search 3s infinite linear;
+}
+@keyframes search {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.searchIcon:hover {
+  color: yellow !important;
+}
